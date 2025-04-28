@@ -4,8 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-iced = "0.13.1"
+iced = { version = "0.13.1", features = ["image"] }
 iced_futures = "0.13.1"
+iced_aw = "0.12.2" 
+image = "0.24"
 tokio = { version = "1", features = ["rt-multi-thread", "time", "macros"] }
 futures = "0.3"
 async-std = "1.12"
